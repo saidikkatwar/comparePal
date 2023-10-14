@@ -1,0 +1,13 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+  
+}
+.main{
+  width:100vw;
+  height:500vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}

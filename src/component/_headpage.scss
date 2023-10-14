@@ -1,0 +1,44 @@
+$background: radial-gradient(900px,#868686,680px, #c12ac3,#4c4c4c) ;
+$background2: radial-gradient(900px,#868686,480px, #02d9ff,#868686);
+$background3: radial-gradient(circle at top,#c12ac3 22%, transparent),radial-gradient(circle at bottom,#0bd4f7 22%,#868686);
+// *{
+//     width:100vw;
+//     height:100vh;
+//     box-sizing: border-box;
+// }
+
+#headpagemain{
+    display:flex;
+    width:100vw;
+    height: 100vh-4vh;
+    background-image: $background;
+    background-attachment:scroll;
+    align-items:center;
+    justify-content:center;
+}
+.maincard{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width:70%;
+    height:55vh;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+    color:aliceblue;
+    background-image: radial-gradient(900px,#797979,670px, #fa35fd,#656565);
+    border-radius:30px;
+}
+
+.maincard{
+    h1{
+        font-size:60px;
+    }
+    p{
+        font-size:35px;
+    }
+}
+
+// .maincard:hover{
+//     background-image: radial-gradient(650px,#424141,400px, #d12dd3,#424141);
+// }
