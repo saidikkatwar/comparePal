@@ -39,7 +39,7 @@
     order:2;
     margin-left:auto;
 }
-.menuImg{
+#menuImg{
     float:right;
     height:3em;
     width:3em;
@@ -48,6 +48,7 @@
     padding:0.23em;
     margin:3px;
 }
-.menuImg:active{
+#menuImg:active{
     border-color:#454545;
 }
+

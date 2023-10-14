@@ -1,7 +1,7 @@
 @use 'headpage' as hp;
 
 .root{
-    width:100vw;
+    width:100%;
     height:100vh;
     background-image:hp.$background3;
     display:flex;
