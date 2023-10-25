@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "puppeteer": "^21.4.1"
+  },
+  "name": "compare-pal",
+  "version": "1.0.0",
+  "description": "a web scraper using puppeteer for compare pal",
+  "main": "indexWebScrap.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm-scrap"
+  },
+  "author": "Ayush Gundawar",
+  "license": "ISC"
+}

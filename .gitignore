@@ -2,6 +2,8 @@
 
 # dependencies
 /node_modules
+/WebScraper/node_modules
+/WebScraper/tmp
 /.pnp
 .pnp.js
 
