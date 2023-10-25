@@ -5,7 +5,7 @@
 
 1. Node js
 2. React js
-3. MongoDB/ MySQL
+3. MongoDB
 4. Puppeteer
 5. Express js
 
