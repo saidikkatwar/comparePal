@@ -1,0 +1,79 @@
+html{
+    font-family: system-ui;
+    background-color: #0e0e0e;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  h1 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*defines background and clips extra content when it pulsuates.*/
+  .body {
+    position: relative;
+    overflow: clip;
+  }
+  /*defines background dots and pulsating animation*/
+  .body::before {
+    z-index: -10;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: radial-gradient(#69696959 1px, transparent 1px);
+    /*background size defines gap between each dot */
+    background-size: 34px 34px;
+    opacity: 0.8;
+    animation: pulsate 20s infinite;
+  }
+  
+  @keyframes pulsate {
+    0% {
+      transform: scale(1);
+      opacity: 0.8;
+    }
+    50% {
+      transform: scale(1.1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 0.8;
+    }
+  }
+  
+  /*defines rotating blurry blob*/
+  .bg-wrapper {
+    background-color: aliceblue;
+    background: linear-gradient(200deg, #0bc94a 0%, #752bec 100%);
+    height: 400px;
+    width: 400px;
+    aspect-ratio: 1;
+    position: absolute;
+    left: -10%;
+    top: -30%;
+    border-radius: 50px;
+    filter: blur(100px);
+    z-index: -1;
+    overflow-x: hidden;
+    animation: rotate 7s linear infinite;
+  }
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /*add more blurry blobs at different positions to get unique animated gradient background*/
+  
