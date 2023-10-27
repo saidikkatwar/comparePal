@@ -4,6 +4,7 @@
 /node_modules
 /WebScraper/node_modules
 /WebScraper/tmp
+/Backend
 /.pnp
 .pnp.js
 
