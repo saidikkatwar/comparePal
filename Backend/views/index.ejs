@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ComparePal</title>
+    <link rel="stylesheet" href="/syle.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="nav">
+        <div class="leftnav">
+            <div class="heading">
+                <h1>ComparePal</h1>
+                <div class="animatebar"></div>
+            </div>
+            <a href="http://#" class="navlinks" title="About Us"><i class="fa-regular fa-address-card fa-3x" style="color: #000000;"></i></a>
+            <a href="http://#" class="navlinks" title="Docs"><i class="fa-solid fa-circle-info fa-3x" style="color: #000000;"></i></a>
+        </div>
+        <div class="rightnav">
+            <form action="/search" method="post">
+                <input type="text" name="search" id="searchbar" placeholder="Enter the link">
+                <button type="submit" value="Search" id="searchbtn"><i class="fa-solid fa-magnifying-glass fa-beat fa-lg " style="color: #ffffff;"></i></button>
+            </form>
+        </div>
+    </div>
+    <div class="cards">
+        <div class="card1">
+            <center><img src="<%- product.image %>" alt="<%= product.image %>" class="image"></center>
+            <h2><%= product.title %></h2>
+            <br>
+            <h3>Rating : <%= product.rating %></h3><br>
+            <h3>Price : <%= product.price %></h3><br><hr>
+            <%- product.details %>
+            <br>
+            <br>
+            <span><a class="link" href="<%= product.url %>" target="_blank">Learn More</a></span>
+        </div>
+        <div class="card2">
+            <center><img src="<%- product.image %>" alt="<%= product.image %>" class="image"></center>
+            <h2><%= product.title %></h2>
+            <br>
+            <h3>Rating : <%= product.rating %></h3><br>
+            <h3>Price : <%= product.price %></h3><br><hr>
+            <%- product.details %>
+            <br>
+            <br>
+            <span><a class="link" href="<%= product.url %>" target="_blank">Learn More</a></span>
+        </div>
+        <div class="card3">
+            <center><img src="<%- product.image %>" alt="<%= product.image %>" class="image"></center>
+            <h2><%= product.title %></h2>
+            <br>
+            <h3>Rating : <%= product.rating %></h3><br>
+            <h3>Price : <%= product.price %></h3><br><hr>
+            <%- product.details %>
+            <br>
+            <br>
+            <span><a class="link" href="<%= product.url %>" target="_blank">Learn More</a></span>
+        </div>
+    </div>
+</body>
+</html>

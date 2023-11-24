@@ -4,10 +4,11 @@
 /node_modules
 /WebScraper/node_modules
 /WebScraper/tmp
-/Backend
 /.pnp
 .pnp.js
-
+/components
+/Backend/tmp
+/Backend/node_modules
 # testing
 /coverage
 
