@@ -3,11 +3,11 @@
 
 ### Technology Stack: 
 
-1. Node js
-2. React js
+1. NodeJS
+2. HTML/CSS
 3. MongoDB/ MySQL
 4. Puppeteer
-5. Express js
+5. ExpressJS
 
 ### Problem Statement:
 
